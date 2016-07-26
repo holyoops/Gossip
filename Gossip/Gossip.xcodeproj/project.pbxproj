@@ -13,6 +13,8 @@
 		067E91901D476782003011D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067E918E1D476782003011D6 /* LaunchScreen.storyboard */; };
 		067E919B1D476782003011D6 /* GossipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067E919A1D476782003011D6 /* GossipTests.swift */; };
 		067E91A61D476782003011D6 /* GossipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067E91A51D476782003011D6 /* GossipUITests.swift */; };
+		067E91BA1D476D54003011D6 /* TabBarMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067E91B91D476D54003011D6 /* TabBarMain.swift */; };
+		067E91BC1D476D70003011D6 /* ViewControllerNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067E91BB1D476D70003011D6 /* ViewControllerNews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		067E91A11D476782003011D6 /* GossipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GossipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		067E91A51D476782003011D6 /* GossipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GossipUITests.swift; sourceTree = "<group>"; };
 		067E91A71D476782003011D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067E91B91D476D54003011D6 /* TabBarMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarMain.swift; sourceTree = "<group>"; };
+		067E91BB1D476D70003011D6 /* ViewControllerNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerNews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 		067E91B31D4767A1003011D6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				067E91B81D4769A5003011D6 /* Tabs */,
+				067E91B51D47691D003011D6 /* News */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -136,6 +142,22 @@
 				067E91911D476782003011D6 /* Info.plist */,
 			);
 			name = Others;
+			sourceTree = "<group>";
+		};
+		067E91B51D47691D003011D6 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				067E91BB1D476D70003011D6 /* ViewControllerNews.swift */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		067E91B81D4769A5003011D6 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				067E91B91D476D54003011D6 /* TabBarMain.swift */,
+			);
+			name = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				067E91861D476782003011D6 /* AppDelegate.swift in Sources */,
+				067E91BA1D476D54003011D6 /* TabBarMain.swift in Sources */,
+				067E91BC1D476D70003011D6 /* ViewControllerNews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
