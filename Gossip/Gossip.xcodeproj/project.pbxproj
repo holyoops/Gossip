@@ -15,6 +15,8 @@
 		067E91A61D476782003011D6 /* GossipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067E91A51D476782003011D6 /* GossipUITests.swift */; };
 		067E91BA1D476D54003011D6 /* TabBarMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067E91B91D476D54003011D6 /* TabBarMain.swift */; };
 		067E91BC1D476D70003011D6 /* ViewControllerNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067E91BB1D476D70003011D6 /* ViewControllerNews.swift */; };
+		06D09F9F1D47706700F6C93A /* news_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D09F9D1D47706700F6C93A /* news_selected@3x.png */; };
+		06D09FA01D47706700F6C93A /* news@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D09F9E1D47706700F6C93A /* news@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		067E91A71D476782003011D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067E91B91D476D54003011D6 /* TabBarMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarMain.swift; sourceTree = "<group>"; };
 		067E91BB1D476D70003011D6 /* ViewControllerNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerNews.swift; sourceTree = "<group>"; };
+		06D09F9D1D47706700F6C93A /* news_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news_selected@3x.png"; sourceTree = "<group>"; };
+		06D09F9E1D47706700F6C93A /* news@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		067E91841D476782003011D6 /* Gossip */ = {
 			isa = PBXGroup;
 			children = (
+				06D09F9B1D47704E00F6C93A /* Resource */,
 				067E91B41D4767A7003011D6 /* Others */,
 				067E91B31D4767A1003011D6 /* Controllers */,
 			);
@@ -158,6 +163,23 @@
 				067E91B91D476D54003011D6 /* TabBarMain.swift */,
 			);
 			name = Tabs;
+			sourceTree = "<group>";
+		};
+		06D09F9B1D47704E00F6C93A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				06D09F9C1D47704E00F6C93A /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		06D09F9C1D47704E00F6C93A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				06D09F9D1D47706700F6C93A /* news_selected@3x.png */,
+				06D09F9E1D47706700F6C93A /* news@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +286,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D09FA01D47706700F6C93A /* news@3x.png in Resources */,
 				067E91901D476782003011D6 /* LaunchScreen.storyboard in Resources */,
+				06D09F9F1D47706700F6C93A /* news_selected@3x.png in Resources */,
 				067E918D1D476782003011D6 /* Assets.xcassets in Resources */,
 				067E918B1D476782003011D6 /* Main.storyboard in Resources */,
 			);
@@ -520,6 +544,7 @@
 				067E91AC1D476782003011D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		067E91AD1D476782003011D6 /* Build configuration list for PBXNativeTarget "GossipTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +553,7 @@
 				067E91AF1D476782003011D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		067E91B01D476782003011D6 /* Build configuration list for PBXNativeTarget "GossipUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +562,7 @@
 				067E91B21D476782003011D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

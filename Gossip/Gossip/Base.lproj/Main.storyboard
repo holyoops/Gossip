@@ -14,10 +14,31 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
+                    <connections>
+                        <segue destination="wx1-v7-NS3" kind="relationship" relationship="viewControllers" id="Tmm-SC-ick"/>
+                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sj9-nB-DFL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="911" y="374"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SSO-f4-CH2">
+            <objects>
+                <navigationController id="wx1-v7-NS3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="news.png" selectedImage="news_selected.png" id="erf-Jb-No8"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1a1-Xs-Erz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rec-JR-GkW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1674" y="374"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="news.png" width="55" height="33"/>
+        <image name="news_selected.png" width="55" height="33"/>
+    </resources>
 </document>
