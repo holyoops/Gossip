@@ -16,6 +16,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="wx1-v7-NS3" kind="relationship" relationship="viewControllers" id="Tmm-SC-ick"/>
+                        <segue destination="nWi-C9-e2F" kind="relationship" relationship="viewControllers" id="Aen-r0-aMV"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sj9-nB-DFL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -36,8 +37,24 @@
             </objects>
             <point key="canvasLocation" x="1674" y="374"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LcJ-rJ-rLh">
+            <objects>
+                <navigationController id="nWi-C9-e2F" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="favorite.png" selectedImage="favorite_selected.png" id="2CU-Md-KCD"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="evi-cI-caf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QqM-PC-Q0D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1674" y="1149"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="favorite.png" width="70" height="32"/>
+        <image name="favorite_selected.png" width="70" height="32"/>
         <image name="news.png" width="55" height="33"/>
         <image name="news_selected.png" width="55" height="33"/>
     </resources>

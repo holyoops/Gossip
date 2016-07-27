@@ -21,7 +21,7 @@ class TabBarMain: UITabBarController {
                 imageName = "news"
                 break
             case 1:
-                imageName = "xinyuan_c"
+                imageName = "favorite"
                 break
             case 2:
                 imageName = "wode_c"
